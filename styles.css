@@ -48,3 +48,15 @@ height: 40%;
 .scroll{
     background-color: #000;
 }
+.offer{
+    font-size: 5rem;
+font-family: fantasy;
+}
+
+.carimg{
+    height: 800px;
+    width: 750px;
+}
+.color{
+    color: #000;
+}
