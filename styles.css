@@ -1,0 +1,50 @@
+
+ .nav-link1{
+     color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+} 
+.nav-link1:hover{
+color: #fff;
+text-decoration: underline;
+} 
+
+.navbar-nav{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    margin-left: auto;
+    letter-spacing: 1px;
+}
+@media (max-width:600px) {
+    .navbar-nav{
+        margin: 0;
+    }
+}
+.navbar-toggler{
+    padding: 0rem;
+}
+.brand{
+    height: 36px;
+    width: 45px;
+}
+
+/* Sales ***********************/
+
+
+.sales{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.photo1{
+height: 40%;
+}
+.box1{
+    display: flex;
+    justify-content: space-around;
+}
+.scroll{
+    background-color: #000;
+}
