@@ -48,15 +48,33 @@ height: 40%;
 .scroll{
     background-color: #000;
 }
+#sale3{
+   background-image: url('images/s16.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
 .offer{
     font-size: 5rem;
 font-family: fantasy;
+color: #fff;
 }
 
+.carSliding{
+    width:47%;
+    margin: auto;
+}
 .carimg{
-    height: 800px;
-    width: 750px;
+    height: 700px;
+    width: 100%;
 }
 .color{
     color: #000;
+}
+.innerHeight{
+    height: 700px;
+    width: 100%;
+    margin: auto;
+}
+.black{
+    color: #000 !important;
 }
