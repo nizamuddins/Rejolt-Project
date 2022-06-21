@@ -1,16 +1,4 @@
-
- .nav-link1{
-     color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1.1rem;
-} 
-.nav-link1:hover{
-color: #fff;
-text-decoration: underline;
-} 
-
-.navbar-nav{
+.navbar-nav {
     display: flex;
     width: 20%;
     justify-content: space-around;
@@ -18,63 +6,160 @@ text-decoration: underline;
     letter-spacing: 1px;
 }
 @media (max-width:600px) {
-    .navbar-nav{
+    .navbar-nav {
         margin: 0;
     }
 }
-.navbar-toggler{
-    padding: 0rem;
+.nav-link1 {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
 }
-.brand{
+.nav-link1:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.navbar-toggler {
+    padding: 0;
+}
+.brand {
     height: 36px;
     width: 45px;
 }
 
-/* Sales ***********************/
+.scroll {
+    background-color: #000;
+}
+/* /Sneakers/ */
 
-
-.sales{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+.sales {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: capitalize;
     font-weight: 600;
 }
-.photo1{
-height: 40%;
-}
-.box1{
+
+.box1 {
     display: flex;
     justify-content: space-around;
 }
-.scroll{
-    background-color: #000;
+
+/* <!-- Sale****** --> */
+
+#sale3 {
+    background-image: url("images/s16.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1.4rem 0 8rem;
 }
-#sale3{
-   background-image: url('images/s16.jpg');
-   background-repeat: no-repeat;
-   background-size: cover;
-}
-.offer{
+.offer {
     font-size: 5rem;
-font-family: fantasy;
-color: #fff;
+    font-family: fantasy;
+    color: #fff;
+    letter-spacing: 2px;
 }
 
-.carSliding{
-    width:47%;
+.carSliding {
+    width: 47%;
     margin: auto;
 }
-.carimg{
+.carimg {
     height: 700px;
     width: 100%;
 }
-.color{
+.color {
     color: #000;
 }
-.innerHeight{
+.innerHeight {
     height: 700px;
     width: 100%;
     margin: auto;
 }
-.black{
-    color: #000 !important;
+
+/* Contact* */
+#contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8rem;
+}
+.support1 {
+    margin-left: 2rem;
+    width: 28%;
+
+}
+.support2 {
+    padding: 1rem 2rem 0.2rem 0;
+    border-bottom: 3px solid #fff;
+}
+.supp {
+    color: #fff;
+    margin: 0;
+}
+.conUs {
+    display: inline-block;
+    margin-right: 6rem;
+}
+
+.context {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-decoration: none;
+
+}
+
+/* SocialMedia */
+.socialmedia {
+    width: 20%;
+}
+
+.media1 {
+    display: flex;
+    justify-content: space-around;
+}
+.tweet {
+    color: #0dcaf0;
+}
+.face {
+    color: #3B5998;
+}
+
+.insta {
+    color: #eb5395;
+}
+.tweet:hover {
+    color: #0dcaf0;
+
+}
+.face:hover {
+    color: #3B5998;
+}
+
+.insta:hover {
+    color: #eb5395;
+}
+
+/* copy* */
+
+#copy {
+    background-color: #000;
+    padding: 2rem 1rem;
+
+}
+
+.designed{
+    color: #fff;
+}
+
+.names{
+    text-decoration: none;
+    color: #fff;;
+}
+
+.names:hover{
+    text-decoration: underline;
+    color: #fff;
 }
