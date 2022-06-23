@@ -1,3 +1,4 @@
+
 .navbar-nav {
     display: flex;
     width: 20%;
@@ -150,16 +151,39 @@
 
 }
 
-.designed{
+.designed {
     color: #fff;
 }
 
-.names{
+.names {
     text-decoration: none;
-    color: #fff;;
+    color: #fff;
 }
 
-.names:hover{
+.names:hover {
     text-decoration: underline;
     color: #fff;
+}
+
+.pop {
+    width: 60%;
+    height: 125px;
+    color: #fff;
+    position: fixed;
+    bottom: 1rem;
+    right: 0;
+    padding: 0.9rem;
+}
+.popbtn {
+    border-radius: 0;
+    padding: 0.2rem 0.6rem;
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.popbtn:hover{
+background-color: #fff;
+color: #000;
+
 }
