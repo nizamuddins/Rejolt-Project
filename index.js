@@ -9,6 +9,7 @@ document.addEventListener("scroll", () => {
 
 })
 
+
 //******* */ cookies
 
 const div1 = document.querySelector(".cookies")
@@ -19,7 +20,8 @@ setTimeout(() => {
     div.innerHTML = 'We, and third parties, use cookies to improve your user experience. For more i' +
             'nformation, see our Privacy Policy By clicking "Accept", you agree to the use ' +
             'of cookies. Change your settings anytime using our Cookies Preferences.' 
-            div.classList.add('close')
+    div.classList.add('close')
+    
     // close
     const close = document.createElement('button');
     close
@@ -44,6 +46,7 @@ setTimeout(() => {
     div1.style.visibility = 'visible'
 
 }, 4000)
+
 
 // remove Cookies
 
