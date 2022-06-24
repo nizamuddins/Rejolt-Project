@@ -166,13 +166,14 @@
 }
 
 .pop {
-    width: 60%;
-    height: 125px;
+    width: 90%;
+    height: 110px;
     color: #fff;
     position: fixed;
     bottom: 1rem;
     right: 0;
-    padding: 0.9rem;
+    padding: 0.5rem;
+    visibility: hidden;
 }
 .popbtn {
     border-radius: 0;
@@ -182,8 +183,24 @@
     border: 1px solid #fff;
 }
 
-.popbtn:hover{
-background-color: #fff;
-color: #000;
+.popbtn:hover {
+    background-color: #fff;
+    color: #000;
+
+}
+
+.close {
+    display: flex;
+    justify-content: space-between;
+
+}
+.btn-close1 {
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: 0.25em;
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+    border: 0;
+    opacity: 0.6;
 
 }
